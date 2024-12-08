@@ -1,0 +1,13 @@
+/* html:not(.dark) {
+  .slidev-layout {
+    background-image: url("./public/bg-insep-logo.png");
+
+    &.image-title {
+      background-image: url("./public/bg-insep-logo.JPG");
+    }
+
+    &.outro {
+      background-image: url("./public/bg-insep-logo.JPG");
+    }
+  }
+} */
