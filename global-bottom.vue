@@ -1,13 +1,14 @@
 <template>
-  <footer
-    v-if="$slidev.nav.currentLayout !== 'cover'"
-    class="absolute bottom-0 right-0 p-2"
-  >
-    <div class="flex justify-between">
-      <!-- <p class="text-gray-500">Antonio J. Morales</p> -->
-      <img src="./insep_logo.png" width="60" />
-      <img src="./fftri_logo.svg" width="60" />
-    </div>
+  <footer class="absolute bottom-1 left-3 w-full text-xs text-gray-400">
+    <p>Antonio J. Morales Artacho / RDE 2024</p>
+    <!-- <div class="relative flex justify-center">
+      <img
+        src="./public/insep_logo_white.png"
+        width="40"
+        class="absolute -top-0 z-10"
+      />
+      <img src="./public/fftrifooter.png" class="" />
+    </div> -->
   </footer>
 </template>
 

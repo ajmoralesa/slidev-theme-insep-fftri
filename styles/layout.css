@@ -5,18 +5,6 @@
   --insep-or: #dcc283;
 }
 
-/* .slidev-layout {
-  @apply relative h-full;
-
-  h1 {
-    @apply text-$insep-blue font-bold;
-  }
-
-  h2 {
-    @apply text-$insep-red mt-0;
-  }
-} */
-
 .slidev-layout {
   @apply relative h-full text-$slidev-theme-primary;
 
@@ -25,11 +13,11 @@
   }
 
   h1 {
-    @apply mb-1;
+    @apply text-3xl mb-1;
   }
 
   h2 {
-    @apply text-$insep-red;
+    @apply text-$insep-red text-2xl;
   }
 
   p + h2,
@@ -52,7 +40,7 @@
   @apply h-full grid;
 
   h1 {
-    @apply text-6xl leading-20;
+    @apply text-3xl leading-20;
   }
 
   h1 + p {
@@ -62,7 +50,7 @@
   p + h2,
   ul + h2,
   table + h2 {
-    @apply mt-10;
+    @apply mt-10 text-white;
   }
 }
 
@@ -70,4 +58,8 @@
   h1 {
     @apply text-8xl font-700 text-red-400;
   }
+}
+
+ul {
+  @apply list-disc;
 }
